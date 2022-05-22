@@ -1,0 +1,721 @@
+
+
+<!DOCTYPE html>
+<html >
+   <head>
+     
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   
+      <title>Configuración de servidor de correo electrónico</title>
+      <meta name="keywords" content="Configuración de servidor de correo electrónico,Cómo configurar su propio servidor de correo electrónico,Configurar clientes de correo electrónico,Configuración servidores de correo electrónico,Cómo montar tu propio servidor de correo,Tutorial sobre la Configuración de servidor de correo, Cómo se configura servidor de correo,instalacion y configuracion de un servidor de correos,Servidor de Correos SMTP HmailServer,HmailServer,como instalar HmailServer, Servidor de correos en windows,Como instalar & configurar un servidor de correo electrónico">
+      <meta name="description" content="Puede aprender a configurar su propio servidor de correo electrónico y escapar del análisis de rutina de los correos electrónicos que estos proveedores realizan en millones de usuarios, y disfrutar de un entorno seguro y privado para sus correos electrónicos.">
+      <meta name="author" content="Marian Garcia ">
+
+
+      
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      
+      <link rel="stylesheet" href="css/style.css">
+      
+      <link rel="stylesheet" href="css/responsive.css">
+      
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    
+   </head>
+  
+   <body class="main-layout">
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+    
+      <header>
+     
+         <div  class="head_top">
+            <div class="header">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                        
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+            
+            <section class="banner_main">
+               <div class="container">
+                  <div class="row d_flex">
+                     <div class=" col-xl-8 col-lg-8 col-md-8 col-12-9">
+                        <div class="text-bg">
+                           <h1>articulo<br> <span class="white1">Configuración de servidor de correo electrónico</span></h1>
+                           <p>Buenas! volvemos esta vez con este contenido que esperamos que te sea práctico y dé respuesta a tus preguntas ¡Comenzamos!
+
+                           Si eres un amante de la privacidad en busca de una buena alternativa a los proveedores de correo web populares como Gmail, Outlook y Yahoo, Estás de suerte.
+
+                           Puede aprender a configurar su propio servidor de correo electrónico y escapar del análisis de rutina de los correos electrónicos que estos proveedores realizan en millones de usuarios, y disfrutar de un entorno seguro y privado para sus correos electrónicos.
+
+                           </p>
+                      
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-4 col-12-3">
+                        <div class="text-img">
+                           <figure><img src="images/box_img.png" alt="#"/></figure>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </header>
+     
+      <div class="blog_main">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Qué necesitará para configurar un servidor de correo electrónico personal</h2>
+                  </div>
+                   <span>
+                        <ul>
+
+                        <li> -Una computadora separada con suficiente capacidad de disco duro, que actuará como servidor de correo electrónico.</li>
+                        <li> -Nombre de dominio para el servidor de correo electrónico que usará para configurar direcciones de correo electrónico.</li>
+                        <li>-Conexión a Internet confiable y de alta velocidad.</li>
+                        <li>-Un sistema operativo como Windows o Linux para ejecutar el servidor.</li>
+                        <li>-Programas de software como MailEnable que pueden ordenar y enrutar correos electrónicos, protección antivirus y filtro de spam como SpamAssassin (el software que usará depende del sistema operativo en el que se establezca).</li>
+                        <li>-Un sistema para agilizar el proceso de configuración.</li>
+                     
+                          </ul>
+                      </span>
+               </div>
+            </div>
+
+
+            <div class="blog_main">
+
+                <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/hmailserve.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              <h3 class="awesome pa_wi">¿Qué es hMailServer?</h3>
+                              <p> es un servidor de correo electrónico gratuito para organizaciones, empresas e individuos que es fácil de instalar y fácil de usar. Descubra cómo instalar y configurar hMailServer en este resumen.</p>
+                              <div class="post_box padding_bottom1">
+                               
+                                                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+        
+                      <span>
+                        <ul>
+
+                        
+                            <div class="blog_main">
+
+                          <h2>Las características principales de hMail Server</h2>
+
+                        <li> Los componentes principales de hMailServer incluyen un procedimiento simple de instalación y configuración, medidas de seguridad integradas (soporte de certificados SSL , integración con escáneres de virus, servidores de listas negras de correo electrónico y búsquedas SPF / MX ), integraciones con otros productos de software a través de una biblioteca COM , y muchos más. Voy a entrar en más de estas características más adelante.</li>
+                       
+                     
+                          </ul>
+                      </span>
+
+                      <span>
+                        <ul>
+
+                     
+                            <div class="blog_main">
+
+                          <h2>¿Es hMailServer seguro?</h2>
+
+                        <p>   La seguridad de hMailServer depende de los pasos que tome durante su configuración, instalación y configuración inicial. Fuera de la caja, no será seguro. No se producirá ninguna transferencia segura de correo electrónico.</p>  
+                        <p>   Los puertos predeterminados como 110 ( POP3 ), 25 ( SMTP ), 143 ( IMAP ) no son seguros. Sin embargo, cuando agrega un certificado SSL y crea nuevos enlaces en el software, obtendrá una transferencia segura de correo electrónico a través de los puertos 995 (POP3 SSL), 465 (SMTP SSL) y 993 (IMAP SSL).</p>    
+                        <p>   Le recomiendo que compre un certificado SSL de terceros para el nombre de host de su nuevo hMailServer antes de enviar o recibir correos electrónicos, especialmente para una cuenta de correo electrónico comercial profesional. Dejar un servidor de correo electrónico POP3/SMTP inseguro en Internet no es lo más inteligente en estos días.</p>
+                         </div>
+
+                           <div class="blog_main">
+
+                          <h2>  ¿Qué significa SMTP?</h2>
+                          <p> El Simple Mail Transfer Protocol (SMTP) se utiliza para enviar correos desde un cliente de correo a un email server o hosting de email. También se usa para reenviar o transmitir correos de un email server a otro. La habilidad de transmitir correos de un servidor a otro es necesaria si el remitente y el receptor tienen proveedores de correo diferentes.</p>
+                         </div>
+                             <div class="blog_main">
+                           <h2>  ¿Qué significa IMAP?</h2>
+                           <p>   Internet Message Access Protocol (IMAP), es el protocolo más sofisticado actualmente. Les permite a los usuarios agrupar todos los correos relacionados y archivarlos en carpetas, que luego pueden ser organizados de forma jerárquica. Tiene marcadores en los mensajes que informan cuando un correo ha sido leído, eliminado o reenviado. Además de que les permite a los usuarios realizar búsquedas en su buzón.</p>
+                            </div>
+                              <div class="blog_main">
+                           <h2>  ¿Qué significa POP?</h2>  
+                           <p>   El Post Office Protocol, es usado para recuperar mensajes de correo electrónico de un servidor de correo a un cliente de correo. POP versión 3 (versión más reciente), soporta extensiones y una gran cantidad de mecanismos de autenticación. Estas características son necesarias para prevenir que los usuarios maliciosos se hagan con el permiso para acceder a los mensajes de los usuarios.
+
+                           </p>
+                            </div>               
+                     
+                          </ul>
+                      </span>
+
+                      <div class="blog_main">
+
+                       <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2> pasos  para completar la configuración</h2>
+                  </div>
+                  
+               </div>
+            </div>
+            </div>
+
+
+                      
+                   
+                    
+                
+           
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/1.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              <h3 class="awesome pa_wi">Instalación</h3>
+                              <p>Pasemos a través del asistente de instalación a continuación. Haga doble clic en el archivo descargado para iniciar el programa de instalación. </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/2.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              
+                              <p>Haga clic en Siguiente y luego elija aceptar el acuerdo de licencia.
+
+                              </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/3.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              
+                              <p>Si desea cambiar la carpeta de destino del software, adelante. La ubicación predeterminada es la carpeta de archivos de programa en su unidad C:. Luego, haga clic en Siguiente.
+
+                              </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/4.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              
+                              <p>Recomiendo mantener el tipo 'Instalación completa'. Haga clic en Siguiente.
+                              </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/5.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              
+                              <p>Al elegir el tipo de servidor de base de datos, puede elegir entre el integrado (Microsoft SQL Compact) o una opción externa (MS SQL Server completo, MySQL o PostgreSQL). Para estos fines, mantendré el integrado y haré clic en Siguiente.
+                              </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/6.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              
+                              <p>Aquí, deberá ingresar una contraseña administrativa para el usuario administrativo que está creando la configuración. ¡Asegúrese de hacer que esta contraseña sea segura y no la pierda! Lo necesitará para configurar el software.
+
+                              </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/7.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              
+                              <p>Aquí está la pantalla 'Listo para instalar'. Si necesita hacer algún cambio, siéntase libre de regresar y hacerlo, luego haga clic en Instalar.
+                              </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/8.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              
+                              <p>Felicitaciones, el software hMailServer ya está instalado.
+                              </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/9.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              
+                              <p>Para manejar la administración del servidor, iniciemos 'hMailServer Administrator' desde el menú Inicio.
+
+                                 Continúe y marque la casilla 'Conectar automáticamente al iniciar' para omitir esto en el futuro. Si tiene un hMailServer remoto, puede ingresar su nombre de host, nombre de dominio completo (FQDN) o dirección IP aquí usando las herramientas de administración administrativa.
+
+                                 Haga clic en Conectar e ingrese la contraseña de administrador de hMailServer que creó durante la configuración. 
+
+
+                              </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/10.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              
+                              <p>¡Bienvenido a hMailServer!
+                              </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+   
+
+    
+                              <h3 class="awesome pa_wi">Configuración DNS</h3>
+                              <p> Como mencioné anteriormente, hay algunos registros DNS que serán necesarios para que funcione la funcionalidad completa del software. Primero, manejemos registros externos (en Internet). El primero es un registro MX . </p>
+
+                              <p>Un registro MX DNS es un registro que indica cómo/dónde enviar un correo electrónico a un dominio específico. Este registro debe apuntar a la dirección [IP] 'externa' de su hMailServer. Como ejemplo, un correo electrónico destinado a @reindersconsulting.com podría pasar por hmail.reindersconsulting.com.
+                              </p>
+
+                              <p>A continuación, necesitaría un registro A externo . Esto le dice a los servidores DNS qué dirección IP está asociada con hmail.reindersconsulting.com.</p>
+
+                              <p>Sus administradores de red podrían asignar una dirección IP externa para su hMailServer. Un escenario común es tener una configuración de NAT 'uno a uno' en su firewall perimetral. Esto permite que el tráfico entrante a la dirección IP externa de su hMailServer se 'traduzca' a su dirección IP interna (LAN) (por ejemplo, 10.0.1.154).</p>
+
+                              <p>Ahora, para cubrir los registros internos, el escenario más simple es un registro A para el nombre de host de su hMailServer que apunta a su dirección IP interna (LAN). Podría tener 'hmailserver01.reinders.local' apuntando a 10.0.1.154.</p>
+
+                               <P>Esta es la configuración más simple absoluta. Puede realizar investigaciones adicionales sobre configuraciones de DNS más sofisticadas.</p>
+
+                                  <div class="blog_main">
+
+                              <h3 class="awesome pa_wi">Puertos de cortafuegos/enrutador</h3>
+
+                              <p>Como insinué anteriormente, necesitará algunos puertos abiertos en su enrutador de borde o firewall para permitir que el tráfico saliente fluya entre su hMailServer e Internet. Supongamos que está utilizando solo tráfico seguro (SSL). En ese caso, puede pedirle a su equipo de red que abra los siguientes puertos entrantes desde Internet a la dirección IP local (LAN) de su hMailServer. 
+
+                           <li>-465 (SMTP seguro)</li>  
+                           <li> -995 (POP3 seguro, si es necesario)</li>
+                             <li>-993 (IMAP seguro)</li> </p>
+                          </div>
+
+                           <div class="blog_main">
+
+                              <h3 class="awesome pa_wi">Especificación de un nombre de host público y un repetidor SMTP</h3> 
+                              <p>Para permitir el tráfico de correo electrónico entrante desde Internet, debe especificar un nombre de host público de la computadora en la que instaló hMailServer. Lo hace a través de Configuración -> Protocolos -> SMTP. A continuación, haga clic en la pestaña Entrega de correo electrónico.</p>
+
+
+                           </div>
+
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/11.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              
+                              <p>En el campo 'Nombre de host local', podría ingresar 'hmailserver01.reindersconsulting.com. Ahora, para que eso funcione, necesitaría asegurarme de tener un registro DNS A externo (Internet) para que ese nombre de host apunte a la dirección IP externa de mi servidor.</p>
+
+                             <P> En términos de correo electrónico saliente, es típico que las redes de la empresa bloqueen el puerto 25 saliente directamente desde un servidor a Internet. Esto se hace por motivos de seguridad. Sin embargo, puede verificar si su servidor tiene la capacidad de enviar en el puerto 25 o no.  </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+             <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/12.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              
+                              <p>Vaya a un símbolo del sistema/Terminal e ingrese este comando:</p>
+
+                             <P> correo telnet servidor de correo electrónico com 25  </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <p> Esto significa que no puede enviar correos electrónicos directamente desde el servidor en el que se encuentra. Ayuda a evitar que los servidores SMTP maliciosos envíen spam a Internet y bloqueen una o más de sus direcciones IP externas (públicas).</p>
+            <p>Entonces, podemos usar un relé SMTP para enviar correos electrónicos al servidor de correo electrónico de su ISP. Dejar que los proveedores de servicios de Internet se encarguen de esta tarea es muy inteligente y eficiente. Luego pueden manejar la tarea de determinar dónde deben ir los correos electrónicos (según las búsquedas de registros DNS y MX) y entregar los correos electrónicos. Puede especificar esta configuración de SMTP en la misma página que la anterior.</p>
+            <p>En el campo 'Retransmisor SMTP', ingrese el servidor en el campo 'Nombre de host remoto' y el puerto TCP/IP. Por ejemplo, la empresa que me proporciona la conexión a Internet (ISP) es AT&T. Busqué en línea cuál es su configuración de correo electrónico para las aplicaciones de correo electrónico:
+
+
+            </p>
+            <li>-Para enviar correo electrónico, el nombre DNS es smtp.mail.att.net. Entonces, ingresaría eso en el campo Nombre de host remoto, ingresaría el puerto 465 o 587 (para SMTP seguro o envío SMTP) y luego marcaría la casilla "El servidor requiere autenticación".</li>
+               <li>-A continuación, ingresaría los detalles de mi cuenta principal de AT&T, el nombre de usuario y la contraseña en los campos respectivos.</li>
+
+
+
+                <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/13.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              <h3 class="awesome pa_wi">Agregar un nuevo dominio y cuentas</h3>
+                              <p>Muy bien, agreguemos nuestro nombre de dominio al sistema. Podemos hacer esto haciendo clic en el botón 'Agregar dominio' en la página de Bienvenida, o haciendo clic en Dominios y haciendo clic en el botón 'Agregar...' </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/14.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              <h3 class="awesome pa_wi"></h3>
+                              <p>Seguiré adelante e ingresaré un dominio de ejemplo y haré clic en 'Guardar'.' </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/15.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              <h3 class="awesome pa_wi"></h3>
+                              <p>A continuación, agregaremos algunos usuarios. Debajo de nuestro nombre de dominio, haga clic en Cuentas, luego en el botón 'Agregar...'. Agregaré algunos usuarios aquí agregando la dirección de correo electrónico, la contraseña, un tamaño máximo para los mensajes (en MB) y cualquier otra característica requerida. </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+           
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/16.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              <h3 class="awesome pa_wi">Cifrado de correos electrónicos con certificación SSL</h3>
+                              <p> Como ha notado hasta ahora, la instalación y configuración inicial del servidor no incluye el tráfico de correo electrónico seguro. Para poder configurar su nuevo servidor de correo electrónico, necesitará un certificado SSL para la autenticación y el cifrado de una autoridad de certificación (CA) de confianza como DigiCert , SSLS.com o  CheapSSLSecurity.com ,  por nombrar algunos.
+
+                              Puede seguir las instrucciones del proveedor de certificados SSL para obtener su certificado. Asegúrese de obtener el certificado SSL en formato PEM , compatible con hMailServer. Necesitará el archivo y los archivos de clave privada disponibles.
+
+                              Para importar su nuevo certificado, vaya a Configuración -> Avanzado -> Certificados SSL. Haga clic en 'Agregar...'
+                              Escriba lo que quiere que sea el nombre. Probablemente sea mejor usar el 'Nombre del sujeto' de su certificado. Luego, busque el 'Archivo de certificado' y el 'Archivo de clave privada'. A continuación, haga clic en Guardar.
+
+                              Ahora que se agregó el certificado SSL, debe "vincularlo" a sus puertos seguros. En la sección Avanzado, vaya a 'Puertos TCP/IP'.
+
+                           </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="row d_flex">
+                       
+                           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_img">
+                              <figure><img src="images/17.png" alt="#"/></figure>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                           <div class="our_text_box">
+                              <h3 class="awesome pa_wi">Cifrado de correos electrónicos con certificación SSL</h3>
+                              <p>Debido a que estamos usando puertos seguros, necesitamos agregar uno. Haga clic en 'Agregar' e ingrese la información SMTP según la captura de pantalla.</p>
+
+                               <p>El único otro paso que daría, por supuesto, es elegir su nuevo certificado SSL del menú desplegable 'Certificado SSL'. Puede realizar los mismos pasos para POP3 e IMAP usando los mismos campos esenciales, el mismo certificado, pero use los puertos 995 para POP3 y 993 para IMAP. ¡Muy fácil! </p>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+              <div class="row">
+               <div class="col-md-12">
+                  <div class="our_two_box">
+                     <div class="center">
+                       
+                        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10">
+                           <div class="our_text_box">
+                              <h3 class="awesome pa_wi">Configuración de una cuenta en Outlook u otros clientes de correo electrónico</h3>
+                              <p>Hay muchos programas de clientes de correo electrónico compatibles con IMAP/POP3/SMTP, incluido Microsoft Outlook, incluso Outlook Express. Déjame probar otra alternativa, Mozilla Thunderbird, para al menos verificar que la configuración del servidor se descubra correctamente. Después de descargar e instalar Mozilla Thunderbird , lo inicié e ingresé parte de la información básica.</p>
+
+                               <p>Aunque no todo funcionó durante la primera prueba, seguí adelante e hice clic en el botón Volver a probar en la parte inferior después de ingresar el nombre de host como 'hmailserver01', mi dirección de correo electrónico: ' mreinders@reindersconsulting.com ' e IMAP como protocolo. Luego 'probó' el servidor y completó el resto de la información correctamente. </p>
+
+                               <p>Después de hacer clic en 'Listo', recibí el siguiente mensaje de advertencia.</p>
+
+                               <p>Esto confirma que no estamos utilizando cifrado para realizar la conexión con el servidor de correo electrónico. Está fuera del alcance de este artículo seguir todos los pasos necesarios para habilitar el cifrado SSL en nuestro hMailServer.</p>
+
+                               <p>De todos modos, ¡tenemos Thunderbird configurado con nuestra cuenta de correo electrónico!</p>
+
+                               <p>Y, solo para confirmar que la verificación de correos electrónicos funciona, fui a Configuración -> Registro, marqué la casilla 'Habilitado' en la parte superior, también verifiqué 'Aplicación' e 'IMAP', y hice clic en Guardar.Luego fui a Thunderbird e hice clic en 'Obtener mensajes' en la parte superior. Volví a hMailServer, hice clic en 'Mostrar registros' y vi nuestro intento exitoso de conexión IMAP.</p>
+
+
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+   
+   
+   
+        
+     
+    
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12 ">
+                     <div class="cont">
+                        <h3> <strong class="multi"> </strong><br>
+                           
+                        </h3>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>Marian Garcia CI 27936013 <a href="https://html.design/"> </a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+     
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      
+    
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   </body>
+</html>
+
